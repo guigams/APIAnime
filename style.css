@@ -1,0 +1,63 @@
+.box {
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.container p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#search {
+    margin-top: 1.5rem;
+    width: 500px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid;
+    border-top: none;
+    height: 1.5rem;
+    outline: none;
+}
+
+h3 {
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+}
+
+
+/* estilizando cards */
+
+.kemicofa-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: stretch;
+}
+
+.kemicofa-row>* {
+    flex-basis: 20rem;
+    flex-shrink: 0;
+}
+
+.kemicofa-row .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.kemicofa-row .card>.card-content {
+    flex-grow: 1;
+}
+
+.kemicofa-row .card>.card-image {
+    flex-basis: 25rem;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    background-color: grey;
+}
+
+body {
+    background-image: url(https://c.tenor.com/dShj1HWV0GkAAAAC/testeee.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
